@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+
+.container {
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+  background: transparent;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  margin: 2px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background: rgb(51, 51, 51);
+}
+
+.button:hover {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background: #008087;
+}
+
+.hasil {
+  width: 226px;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  text-align: center;
+  background: #eeefff;
+  opacity: 0.7;
+}
